@@ -12,8 +12,8 @@ permissions:
   issues: write
 
 env:
-  PATH_TO_TFSCRIPT_BTP: 'infra/BTP'
-  PATH_TO_TFSCRIPT_CF: 'infra/CloudFoundry'
+  PATH_TO_TFSCRIPT_BTP: './'
+  PATH_TO_TFSCRIPT_CF: './'
 
 jobs:
   create_subaccount:
