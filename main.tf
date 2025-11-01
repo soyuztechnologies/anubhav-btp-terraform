@@ -1,4 +1,5 @@
 resource "random_uuid" "uuid" {}
+data "btp_globalaccount" "this" {}
 
 # resource "btp_subaccount" "project_subaccount" {
 #   name         = "Anubhav Terraform"
