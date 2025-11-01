@@ -64,7 +64,7 @@ resource "btp_subaccount_environment_instance" "cloudfoundry" {
   environment_type = "cloudfoundry"
   service_name     = "cloudfoundry"
   plan_name        = "trial"
-  landscape_label  = var.subaccount_stage
+  landscape_label  = "us10-001"
   
   parameters = jsonencode({
     instance_name = var.subaccount_name
